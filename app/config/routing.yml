@@ -1,0 +1,5 @@
+acme_demo_message:
+    resource: "@AcmeDemoBundle/Controller/MessageRESTController.php"
+    type:   rest
+    prefix:   /
+
