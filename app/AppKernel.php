@@ -24,9 +24,8 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Bazinga\Bundle\RestExtraBundle\BazingaRestExtraBundle(),
             new Bazinga\Bundle\HateoasBundle\BazingaHateoasBundle(),
-            new \Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
+            new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
             new Acme\DemoBundle\AcmeDemoBundle()
-            
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
